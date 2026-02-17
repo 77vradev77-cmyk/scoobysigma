@@ -828,7 +828,7 @@ local progressConnection = nil
 local StealData = {}
 
 -- Discord text for progress bar
-[[ local DISCORD_TEXT = "discord.gg/22s" ]]
+local DISCORD_TEXT = ""
 
 local function getDiscordProgress(percent)
     local totalChars = #DISCORD_TEXT
@@ -1129,7 +1129,6 @@ local C = {
 }
 
 local sg = Instance.new("ScreenGui")
-sg.Name = "ScoobyDUELS"
 sg.ResetOnSpawn = false
 sg.Parent = Player.PlayerGui
 
@@ -1319,7 +1318,6 @@ local titleLabel = Instance.new("TextLabel", header)
 titleLabel.Size = UDim2.new(1, 0, 0, 32 * guiScale)
 titleLabel.Position = UDim2.new(0, 0, 0, 10 * guiScale)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "ScoobyDUELS"
 titleLabel.TextColor3 = C.text
 titleLabel.Font = Enum.Font.GothamBlack
 titleLabel.TextSize = 28 * guiScale
@@ -1330,7 +1328,7 @@ local subtitleLabel = Instance.new("TextLabel", header)
 subtitleLabel.Size = UDim2.new(1, 0, 0, 24 * guiScale)
 subtitleLabel.Position = UDim2.new(0, 0, 0, 40 * guiScale)
 subtitleLabel.BackgroundTransparency = 1
-[[ subtitleLabel.Text = "discord.gg/22s" ]]
+subtitleLabel.Text = "discord.gg/22s"
 subtitleLabel.TextColor3 = C.purpleLight
 subtitleLabel.Font = Enum.Font.GothamBold
 subtitleLabel.TextSize = 16 * guiScale
